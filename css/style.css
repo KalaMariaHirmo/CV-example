@@ -1,0 +1,83 @@
+
+:root {
+    --dark-background: #470938;
+    --border-color: #f2d6eb;
+   
+}
+html{
+    background-color: var(--dark-background);
+    color: var(--border-color);
+}
+.top-container{
+    position: relative;
+    height: 800px;
+    width: 800px;
+    border: 2px solid var(--border-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Mansalva', cursive;
+
+}
+body {
+    background-color: var(--dark-background);
+}
+img {
+    position: absolute;
+}
+.mountain {
+    bottom: 0%;
+    left: 12%;
+}
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+}
+p {
+    position: absolute;
+    top: 230px;
+    left: 30%;
+}
+span {
+    text-decoration: underline;
+}
+.cloud1{
+    top: 8%;
+    right: 15%;
+}
+.cloud2 {
+    top: 180px;
+    left: 8%;
+}
+.cloud3 {
+    top: 30%;
+    right: 21%;
+}
+.middle-container {
+    width: 75%;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid var(--border-color);
+    font-family: 'Exo 2', sans-serif;
+}
+.profile img{
+    width: 100px;
+    padding: 2rem 0;
+    height: 180px;
+    left: 46%;
+}
+.profile h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+.profile p{
+    top: 1020px;
+    left: 46.9%;
+}
+.skills{
+    text-align: center;
+    margin-top: 180px;
+    margin-left: -10px;
+}
