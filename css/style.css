@@ -5,10 +5,14 @@
    
 }
 html{
-    background-color: var(--dark-background);
     color: var(--border-color);
 }
 .top-container{
+    height: 800px;
+
+    background-color: var(--dark-background);
+}
+.cloud-wrapper {
     position: relative;
     height: 800px;
     width: 800px;
@@ -18,24 +22,23 @@ html{
     font-size: 3rem;
     font-weight: 700;
     font-family: 'Mansalva', cursive;
-
 }
 body {
-    background-color: var(--dark-background);
+    margin: 0%;
 }
-img {
+.cloud-wrapper img {
     position: absolute;
 }
 .mountain {
     bottom: 0%;
     left: 12%;
 }
-h1 {
+.cloud-wrapper h1 {
     position: absolute;
     top: 10px;
     left: 20%;
 }
-p {
+.cloud-wrapper p {
     position: absolute;
     top: 230px;
     left: 30%;
@@ -57,27 +60,63 @@ span {
 }
 .middle-container {
     width: 75%;
-    height: 500px;
     margin: 0 auto;
     border: 2px solid var(--border-color);
+    background: #f700ff;
     font-family: 'Exo 2', sans-serif;
+}
+.profile {
+    text-align: center;
+    padding-bottom: 2rem 0;
 }
 .profile img{
     width: 100px;
     padding: 2rem 0;
-    height: 180px;
-    left: 46%;
 }
 .profile h2 {
     font-size: 3rem;
-    text-align: center;
 }
 .profile p{
-    top: 1020px;
-    left: 46.9%;
+
 }
 .skills{
     text-align: center;
-    margin-top: 180px;
-    margin-left: -10px;
+  
 }
+hr {
+    color: var(--border-color);
+    border-width: 2px;
+    border-style: solid none none;
+    
+}
+.contact-me {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.butn {
+    background: #ee89ee;
+    background-image: -webkit-linear-gradient(top, #ee89ee, #850a68);
+    background-image: -moz-linear-gradient(top, #ee89ee, #850a68);
+    background-image: -ms-linear-gradient(top, #ee89ee, #850a68);
+    background-image: -o-linear-gradient(top, #ee89ee, #850a68);
+    background-image: linear-gradient(to bottom, #ee89ee, #850a68);
+    margin: 0 auto;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 0px 0px 9px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+  }
+  
+  .butn:hover {
+    background: #ff00e1;
+    text-decoration: none;
+  }
